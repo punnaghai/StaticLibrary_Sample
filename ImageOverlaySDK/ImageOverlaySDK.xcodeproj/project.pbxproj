@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA1F299E1CBF4A1100039CBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1F299D1CBF4A1100039CBA /* main.m */; };
+		FA1F29A11CBF4A1100039CBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1F29A01CBF4A1100039CBA /* AppDelegate.m */; };
+		FA1F29A41CBF4A1100039CBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1F29A31CBF4A1100039CBA /* ViewController.m */; };
+		FA1F29A71CBF4A1100039CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1F29A51CBF4A1100039CBA /* Main.storyboard */; };
+		FA1F29A91CBF4A1100039CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1F29A81CBF4A1100039CBA /* Assets.xcassets */; };
+		FA1F29AC1CBF4A1100039CBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1F29AA1CBF4A1100039CBA /* LaunchScreen.storyboard */; };
+		FA1F29CE1CC034A400039CBA /* libOverlayLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1F29CD1CC034A400039CBA /* libOverlayLibrary.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA1F29991CBF4A1100039CBA /* ImageOverlaySDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageOverlaySDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1F299D1CBF4A1100039CBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA1F299F1CBF4A1100039CBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA1F29A01CBF4A1100039CBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA1F29A21CBF4A1100039CBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA1F29A31CBF4A1100039CBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA1F29A61CBF4A1100039CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA1F29A81CBF4A1100039CBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA1F29AB1CBF4A1100039CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA1F29AD1CBF4A1100039CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1F29CD1CC034A400039CBA /* libOverlayLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOverlayLibrary.a; path = lib/libOverlayLibrary.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA1F29961CBF4A1100039CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1F29CE1CC034A400039CBA /* libOverlayLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA1F29901CBF4A1100039CBA = {
+			isa = PBXGroup;
+			children = (
+				FA1F29CD1CC034A400039CBA /* libOverlayLibrary.a */,
+				FA1F299B1CBF4A1100039CBA /* ImageOverlaySDK */,
+				FA1F299A1CBF4A1100039CBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA1F299A1CBF4A1100039CBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA1F29991CBF4A1100039CBA /* ImageOverlaySDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA1F299B1CBF4A1100039CBA /* ImageOverlaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				FA1F299F1CBF4A1100039CBA /* AppDelegate.h */,
+				FA1F29A01CBF4A1100039CBA /* AppDelegate.m */,
+				FA1F29A21CBF4A1100039CBA /* ViewController.h */,
+				FA1F29A31CBF4A1100039CBA /* ViewController.m */,
+				FA1F29A51CBF4A1100039CBA /* Main.storyboard */,
+				FA1F29A81CBF4A1100039CBA /* Assets.xcassets */,
+				FA1F29AA1CBF4A1100039CBA /* LaunchScreen.storyboard */,
+				FA1F29AD1CBF4A1100039CBA /* Info.plist */,
+				FA1F299C1CBF4A1100039CBA /* Supporting Files */,
+			);
+			path = ImageOverlaySDK;
+			sourceTree = "<group>";
+		};
+		FA1F299C1CBF4A1100039CBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA1F299D1CBF4A1100039CBA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA1F29981CBF4A1100039CBA /* ImageOverlaySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1F29B01CBF4A1100039CBA /* Build configuration list for PBXNativeTarget "ImageOverlaySDK" */;
+			buildPhases = (
+				FA1F29951CBF4A1100039CBA /* Sources */,
+				FA1F29961CBF4A1100039CBA /* Frameworks */,
+				FA1F29971CBF4A1100039CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageOverlaySDK;
+			productName = ImageOverlaySDK;
+			productReference = FA1F29991CBF4A1100039CBA /* ImageOverlaySDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA1F29911CBF4A1100039CBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Punnaghai Puvi";
+				TargetAttributes = {
+					FA1F29981CBF4A1100039CBA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6EFGAH223G;
+					};
+				};
+			};
+			buildConfigurationList = FA1F29941CBF4A1100039CBA /* Build configuration list for PBXProject "ImageOverlaySDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA1F29901CBF4A1100039CBA;
+			productRefGroup = FA1F299A1CBF4A1100039CBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA1F29981CBF4A1100039CBA /* ImageOverlaySDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA1F29971CBF4A1100039CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1F29AC1CBF4A1100039CBA /* LaunchScreen.storyboard in Resources */,
+				FA1F29A91CBF4A1100039CBA /* Assets.xcassets in Resources */,
+				FA1F29A71CBF4A1100039CBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA1F29951CBF4A1100039CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1F29A41CBF4A1100039CBA /* ViewController.m in Sources */,
+				FA1F29A11CBF4A1100039CBA /* AppDelegate.m in Sources */,
+				FA1F299E1CBF4A1100039CBA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA1F29A51CBF4A1100039CBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1F29A61CBF4A1100039CBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA1F29AA1CBF4A1100039CBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1F29AB1CBF4A1100039CBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA1F29AE1CBF4A1100039CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA1F29AF1CBF4A1100039CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA1F29B11CBF4A1100039CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = $SOURCE_ROOT/include;
+				INFOPLIST_FILE = ImageOverlaySDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Products/Debug-iphonesimulator",
+					"$(PROJECT_DIR)/lib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = DateStructures.ImageOverlaySDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA1F29B21CBF4A1100039CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = $SOURCE_ROOT/include;
+				INFOPLIST_FILE = ImageOverlaySDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Products/Debug-iphonesimulator",
+					"$(PROJECT_DIR)/lib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = DateStructures.ImageOverlaySDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA1F29941CBF4A1100039CBA /* Build configuration list for PBXProject "ImageOverlaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1F29AE1CBF4A1100039CBA /* Debug */,
+				FA1F29AF1CBF4A1100039CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1F29B01CBF4A1100039CBA /* Build configuration list for PBXNativeTarget "ImageOverlaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1F29B11CBF4A1100039CBA /* Debug */,
+				FA1F29B21CBF4A1100039CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA1F29911CBF4A1100039CBA /* Project object */;
+}
